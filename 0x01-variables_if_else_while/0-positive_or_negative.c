@@ -3,7 +3,8 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: Get a random number and print the number, and if it negative, positive or zero
+ * Description: Get a random number and print the number,
+ *and if it negative, positive or zero
  * Return: 0
  */
 int main(void)
@@ -20,5 +21,5 @@ int main(void)
 	else
 		printf("%i is zero\n", n);
 
-	return(0);
+	return (0);
 }
