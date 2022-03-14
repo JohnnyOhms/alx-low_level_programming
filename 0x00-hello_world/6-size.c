@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
- *
  * main - Entry point
- * printing  various sizes compiled on computer
- * Return: Always 0 (success)
+ * printing  various sizes compiled on computer Return: Always 0 (success)
  */
 int main(void)
 {
@@ -12,5 +10,5 @@ int main(void)
 	printf("size of a long int: %d byte(s)\n", sizeof(long int));
 	printf("size of a long long int: %d byte(s)\n", sizeof(long long int));
 	printf("size of a float: %d byte(s)\n", sizeof(float));
-	return(0);
+	return (0);
 }
