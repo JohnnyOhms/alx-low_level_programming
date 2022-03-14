@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 
 /**
 * main - prints the phrase programing is like a multilingual puzzle
