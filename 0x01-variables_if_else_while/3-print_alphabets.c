@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: Use 'putchar' to print lowercase and 
+ * Description:Use 'putchar' to print lowercase and 
  * then uppercase alphabet.
  * Return: 0
  */
@@ -17,7 +17,7 @@ int main(void)
 
 	c = 'A';
 
-	while(c <= 'Z')
+	while (c <= 'Z')
 	{
 		putchar(c);
 		c++;
