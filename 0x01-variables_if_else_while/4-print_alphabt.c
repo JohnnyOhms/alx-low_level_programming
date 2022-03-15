@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: use 'putchar' to print all letters expect q and p
+ * Description: use 'putchar' to print all letters expect q and e
  * Return: 0
  */
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
 
 	while (c <= 'z')
 	{
-		if (c != 'q' && c != 'p')
+		if (c != 'q' && c != 'e')
 			putchar(c);
 		c++;
 	}
