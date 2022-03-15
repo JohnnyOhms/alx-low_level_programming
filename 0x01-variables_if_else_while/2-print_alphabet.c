@@ -1,8 +1,7 @@
 #include <stdio.h>
 /*
  * main - main Entry
- * Description: The use of putchar fucion to print alphabet
- * in lower case, can be used only twice.
+ * Description: The use of putchar fucion to print alphabetin lower case, can be used only twice.
  * Return: 0
  */
 int main(void)
