@@ -16,6 +16,7 @@ int main(void)
 	for (c = 'a'; c < 'g'; c++)
 	{
 		putchar(c);
+	}
 
 		return (0);
 }	
