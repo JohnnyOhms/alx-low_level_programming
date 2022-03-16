@@ -4,7 +4,7 @@
  * Description: print all possible dif num of 3 digit
  * Return: 0
  */
-int main (void)
+int main(void)
 {
 	int i, j, k, l;
 
