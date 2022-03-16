@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "main.h"
-/**
- * Description: function that print alpha in lowecase
- * followed by a new line
+/** 
+ * function that print alpha in lowecase
+ * followed by a new line.
+ * print_alphabet: print all alpha
  */
 void print_alphabet(void)
 {
@@ -15,6 +16,5 @@ void print_alphabet(void)
 		_putchar(c);
 		c++;
 	}
-	
 	_putchar('\n');
 }
