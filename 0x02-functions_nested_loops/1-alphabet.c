@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include "main.h"
+
 /** 
- * function that print alpha in lowecase
- * followed by a new line.
- * print_alphabet: print all alpha
+ * print_alphabet: print all alpha in lowe case
  */
 void print_alphabet(void)
 {
