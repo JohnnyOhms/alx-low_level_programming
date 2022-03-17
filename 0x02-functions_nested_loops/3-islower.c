@@ -7,8 +7,9 @@
  * 10 times
  * reurn: 1if itslowercase or 0if upper
  */
-int_islower(int c)
+int _islower(int c)
 {
+
 	if (c > 'a' && c < 'z')
 	{
 		return (1);
