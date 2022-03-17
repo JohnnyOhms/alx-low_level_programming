@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower -check Holberton
+ * _islower - check Holberton
  * @c: an input character
  * Desciption: function that print alpha in lowecase
  * 10 times
@@ -13,8 +13,7 @@ int _islower(int c)
 	if (c > 'a' && c < 'z')
 	{
 		return (1);
-	}
-	
+	}	
 	else
 	{
 		return (0);
