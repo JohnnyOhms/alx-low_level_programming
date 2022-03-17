@@ -4,6 +4,7 @@
 /**
  * print_alphabet_x10: prints 10 times the alpha 
  * and a new line
+ * Return: 0
  */
 void print_alphabet_x10(void)
 {
