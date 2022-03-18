@@ -11,7 +11,7 @@ void time_table(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		for (j = 0; j <= 9, j++)
+		for (j = 0; j <= 9; j++)
 		{
 			n = i * j;
 
@@ -21,7 +21,7 @@ void time_table(void)
 					_putchar(' ');
 				_putchar(n + '0');
 				if (j == 9)
-					continue
+					continue;
 				_putchar(',');
 				_putchar(',');
 			}
