@@ -3,7 +3,7 @@
 /**
  * _abs - check Holberton
  * @r: An integre input
- * *Description: This function returns absolute value 
+ * Description: This function returns absolute value 
  * of a number
  * Return: absolute Value of number r
  */
