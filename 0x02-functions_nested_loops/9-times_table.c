@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * time_table - check description
- * Description: it prints 9 times table starting with 0
- * Return: Nothing
+ * times_table - Check description
+ * Description: It prints 9 times table starting with 0
+ * Return: Nothing.
  */
-void time_table(void)
+void times_table(void)
 {
 	int i, j, n;
 
@@ -20,10 +20,11 @@ void time_table(void)
 				if (j != 0)
 					_putchar(' ');
 				_putchar(n + '0');
+
 				if (j == 9)
 					continue;
 				_putchar(',');
-				_putchar(',');
+				_putchar(' ');
 			}
 			else
 			{
@@ -38,4 +39,3 @@ void time_table(void)
 		_putchar('\n');
 	}
 }
-
