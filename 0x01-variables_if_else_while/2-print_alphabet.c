@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*
- * main - main Entry
- * Description: The use of putchar to print alpha 
+/**
+ * main - main block
+ * Description: Use `putchar` function to print the alphabet in lowercase.
  * Return: 0
  */
 int main(void)

@@ -1,22 +1,22 @@
 #include <stdio.h>
 /**
- * main - main Entry
- * Description: Print all possible combo of single num
+ * main - main block
+ * Description: Print all numbers of base64 in lowercase.
+ * You can only use `putchar`, and only 3 times.
  * Return: 0
  */
 int main(void)
 {
-	int i = 0;
+	char c;
+	int i;
 
-	while (i < 0)
+	for (i = 0; i < 10; i++)
 	{
 		putchar(i + '0');
-		if (1 < 9)
-		{
-			putchar(44);
-			putchar(32);
-		}
-		i++;
+	}
+	for (c = 'a'; c < 'g'; c++)
+	{
+		putchar(c);
 	}
 	putchar('\n');
 
