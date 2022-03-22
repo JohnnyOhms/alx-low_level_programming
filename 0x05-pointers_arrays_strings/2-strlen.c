@@ -1,5 +1,4 @@
-#include "main"
-?
+#include "main.h"
 /**
  * int _strlen(char *s) - returns th lengtg=h of thr string
  * return: the length of the string
